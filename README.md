@@ -15,7 +15,9 @@
 
 <!-- 
 ======================================================
-  ATTACH YOUR DEMO VIDEO BELOW THIS COMMENT
+  ATTACH Y
+
+OUR DEMO VIDEO BELOW THIS COMMENT
   You can drag and drop your video file right here!
 ======================================================
 -->
