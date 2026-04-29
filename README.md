@@ -1,3 +1,6 @@
+
+
+
 <div align="center">
 
 # ⚓️ Anchor 
@@ -13,6 +16,8 @@
 
 ### 🎥 Demo Video
 
+https://github.com/user-attachments/assets/19124776-a3e3-46eb-b692-fea499352a72
+
 <!-- 
 ======================================================
   ATTACH Y
@@ -21,9 +26,6 @@ OUR DEMO VIDEO BELOW THIS COMMENT
   You can drag and drop your video file right here!
 ======================================================
 -->
-<p align="center">
-  <i><br>(Insert Demo Video Here)<br></i>
-</p>
 
 ---
 
@@ -36,15 +38,6 @@ OUR DEMO VIDEO BELOW THIS COMMENT
 - **🎯 Focus Control Center:** Personalize your reading environment. Adjust ambient audio, track your progress, and stay grounded.
 - **✍️ Doodle View:** Sketch ideas, jot down mental notes, or map out thoughts visually without leaving your reading context.
 - **♾️ Infinity Trace:** A specialized visual focus tool to recenter your attention before or during a deep-work session.
-
-## 📱 Screenshots
-
-<div align="center">
-  <!-- Replace with actual screenshots -->
-  <img src="https://via.placeholder.com/250x500.png?text=Reading+View" width="200" style="margin: 10px; border-radius: 12px;">
-  <img src="https://via.placeholder.com/250x500.png?text=Focus+Control" width="200" style="margin: 10px; border-radius: 12px;">
-  <img src="https://via.placeholder.com/250x500.png?text=Doodle+Pad" width="200" style="margin: 10px; border-radius: 12px;">
-</div>
 
 ## 🛠 Tech Stack
 
@@ -78,10 +71,6 @@ Bubble Read/
 ├── ✏️ DoodleView.swift            # In-app sketching and visual notes
 └── ♾️ InfinityTraceView.swift     # Visual grounding exercises
 ```
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
