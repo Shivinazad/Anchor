@@ -1,7 +1,7 @@
 # Anchor ⚓️
 
 **A multi-sensory iOS reading environment designed to turn nervous energy into deep cognitive focus.** 
-*Winner / Submission for the Apple Swift Student Challenge 2026.*
+
 
 ### 🎥 See Anchor in Action
 *(Demo Video: Turn on sound for ambient audio)*
