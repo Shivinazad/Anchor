@@ -1,79 +1,53 @@
+# Anchor ⚓️
+
+**A multi-sensory iOS reading environment designed to turn nervous energy into deep cognitive focus.** 
+*Winner / Submission for the Apple Swift Student Challenge 2026.*
+
+### 🎥 See Anchor in Action
+*(Demo Video: Turn on sound for ambient audio)*
+
+ 
+
+https://github.com/user-attachments/assets/51d0e447-f797-4a18-ab7a-1e96c036d0d2
 
 
 
-<div align="center">
-
-# ⚓️ Anchor 
-**A Next-Generation Focus & Reading Environment**
-
-[![Swift](https://img.shields.io/badge/Swift-5.9+-orange.svg?style=flat-square)](https://swift.org)
-[![Platform](https://img.shields.io/badge/Platforms-iOS%20%7C%20iPadOS%20%7C%20macOS-lightgrey.svg?style=flat-square)](https://developer.apple.com/swift/)
-[![UI](https://img.shields.io/badge/UI-SwiftUI-blue?style=flat-square)](https://developer.apple.com/xcode/swiftui/)
-
-> Transform the way you read, focus, and absorb information with an immersive, distraction-free sensory experience.
-
----
-
-### 🎥 Demo Video
-
-https://github.com/user-attachments/assets/19124776-a3e3-46eb-b692-fea499352a72
-
-<!-- 
-======================================================
-  ATTACH Y
-
-OUR DEMO VIDEO BELOW THIS COMMENT
-  You can drag and drop your video file right here!
-======================================================
--->
 
 ---
 
-</div>
+## The Problem
+For students navigating ADHD or digital fatigue, reading dense academic PDFs (like Data Structures or OS documentation) is a constant battle for attention. The static nature of digital text leads to under-stimulation, forcing the brain to context-switch to high-dopamine apps (like Instagram or TikTok). Traditional focus apps rely on guilt and blocking, which only increases anxiety. 
 
-## ✨ Features
+## The Solution
+Anchor is a "Trojan Horse" of empathy. It hijacks the highly effective psychological layout of short-form video (the 60/40 split-screen) and applies it to academic reading. Instead of fighting the urge to fidget, Anchor provides a safe, integrated home for it.
 
-- **📖 Advanced Reading Engine:** Seamless PDF rendering powered by `PDFKit` tightly integrated into SwiftUI.
-- **🎧 Ambient Soundscapes:** Built-in spatial audio mixing (Binaural, Brown Noise, Cafe, Rain, Ocean, Fire, and more) designed specifically to trigger flow states.
-- **🎯 Focus Control Center:** Personalize your reading environment. Adjust ambient audio, track your progress, and stay grounded.
-- **✍️ Doodle View:** Sketch ideas, jot down mental notes, or map out thoughts visually without leaving your reading context.
-- **♾️ Infinity Trace:** A specialized visual focus tool to recenter your attention before or during a deep-work session.
+### Core Features
 
-## 🛠 Tech Stack
+*   📖 **The 60/40 Split Layout:** The top 60% of the screen houses a robust, frictionless PDF reader. The bottom 40% houses a "Kinetic Anchor" to intercept distraction before it leads to an app switch.
+*   ✍️ **Kinetic Anchors (Doodle & Trace):** Tactile tools including a Doodle Canvas and an Infinity Trace path. These require zero fine-motor precision, allowing the thumb to wander mindlessly while the eyes remain locked on the text above.
+*   🎧 **Audio Grounding:** Localized, high-quality ambient soundscapes (Soft Rain, Brown noise) that mask external chaos and create a sensory bubble.
+*   🏆 **Empathic Session Analytics:** A bottom-aligned dashboard that tracks "Active Time" and "Best Streaks," but proudly highlights "Anchors Used" on a central podium—celebrating the redirection of distraction as a victory rather than a failure.
+*   🧠 **Cognitive Accessibility:** Built with ruthless minimalism. Utilizing native iOS detents, high-contrast system colors, and SF Symbols to minimize cognitive load and visual clutter.
 
-- **Frameworks:** SwiftUI, PDFKit, AVFoundation
-- **Language:** Swift 
-- **Architecture:** MVVM-friendly pure SwiftUI declarative data flow
+## Technical Architecture
 
-## 🚀 Getting Started
+Anchor was built purely with native Apple technologies to ensure frictionless performance and strict HIG compliance:
 
-### Prerequisites
-- Xcode 15+ (or Swift Playgrounds 4+)
-- iOS 16.0+ / iPadOS 16.0+ / macOS 13.0+
+*   **SwiftUI:** For a fluid, reactive, and accessible user interface.
+*   **PDFKit:** Integrated as the core renderer for seamless, native document pagination.
+*   **AVFoundation:** Utilized for thread-safe audio routing via `NSDataAsset`, ensuring ambient tracks respect the iOS physical silent switch.
+*   **Swift 6 Concurrency:** Engineered a custom Snapshot State Machine utilizing strict `@MainActor` isolation. This ensures every kinetic interaction is instantly logged to permanent `@AppStorage` without memory leaks or mathematical data-race errors.
 
-### Installation
+## Requirements
+*   iOS 18.0+
+*   Xcode 16.0+
+*   Swift 6.0
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Shivinazad/Anchor.git
-   ```
-2. Open `Bubble Read.swiftpm` in Xcode or Swift Playgrounds.
-3. Wait for Swift Package Manager to resolve dependencies.
-4. Select your target device or simulator and hit `Cmd + R` (Run).
-
-## 📂 Project Structure
-
-```text
-Bubble Read/
-├── 🎵 AudioManager.swift          # Handles playback of all focus datasets
-├── 🎛 FocusControlCenter.swift    # Core UI for managing flow and distraction
-├── 📖 ReadingView.swift           # Main PDF immersion interface
-├── ✏️ DoodleView.swift            # In-app sketching and visual notes
-└── ♾️ InfinityTraceView.swift     # Visual grounding exercises
-```
+## Getting Started
+1. Clone the repository: `git clone https://github.com/yourusername/anchor.git`
+2. Open `Bubble Read.swiftpm` (or `Anchor.xcodeproj`) in Xcode.
+3. Select an iOS Simulator (iPhone 15 Pro or later recommended) or a physical device.
+4. Hit `Cmd + R` to build and run.
 
 ---
-
-<div align="center">
-  <p>Built with ❤️ for deep thinkers and avid readers.</p>
-</div>
+*Designed and engineered by Shivin Azad.*
